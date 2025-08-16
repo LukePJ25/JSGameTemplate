@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSGameTemplate</title>
+    <link rel="stylesheet">
+</head>
+<body>
+<img id="gfx" alt="The game's sprite sheet." style="display: none;" src="./assets/graphics.png">
+<main>
+    <div id="content">
+        <!--
+        If you want the game to start automatically, remove
+        "onClick="requestStart()"" from the canvas' attributes.
+        -->
+        <script src="./game/main.js" type="module"></script>
+        <canvas width="800" height="600" onClick="requestStart()" id="gamebox"></canvas>
+    </div>
+</main>
+</body>
+</html>
